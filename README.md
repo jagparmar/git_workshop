@@ -1,5 +1,7 @@
 # Git/GitHub Workshop with Mandelbrot in MATLAB
 
+[![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=SatireSage/git_workshop&file=src/main.m)
+
 ## Mandelbrot
 
 [![Mandelbrot Set](https://img.youtube.com/vi/8SWFx5vINKM/0.jpg)](https://www.youtube.com/watch?v=8SWFx5vINKM)
@@ -28,6 +30,30 @@ By the end of this workshop, you will:
 5. Commit and push your changes to GitHub.
 6. Create a pull request to merge your changes into the main project.
 7. Understand how to modify and run the provided MATLAB script for rendering the Mandelbrot set.
+
+## Creating and Setting Up a GitHub Token
+
+To use MATLAB Online with GitHub, you need to create a personal access token. Follow these steps:
+
+1. Go to [GitHub Personal Access Tokens](https://github.com/settings/tokens).
+2. Click on "Generate new token".
+3. Give your token a descriptive name, such as "MATLAB Online Access".
+4. Select the following scopes:
+   - `repo` (Full control of private repositories)
+5. Click "Generate token".
+6. **Important:** Copy the token to a secure location. You will not be able to see it again.
+
+### Using the Token in MATLAB Online
+
+Not Required since using the Badge will automatically prompt for the username and token to clone the repository. However, if you want to set it up manually, follow these steps:
+
+1. Open MATLAB Online and go to the "Home" tab.
+2. Click on "Preferences".
+3. Navigate to "MATLAB > Git".
+4. In the "Remote" section, enter your GitHub username and paste the personal access token as the password.
+5. Click "Apply" and "OK".
+
+Your MATLAB Online is now set up to interact with GitHub using your personal access token.
 
 ## Getting Started
 
@@ -141,4 +167,4 @@ Congratulations! You've successfully contributed to the Mandelbrot renderer proj
   **Colormaps:**
   ![Colormaps](image/README/1718617207725.png)
 
-## If you have any questions or need further assistance, feel free to ask during the workshop. Happy coding!
+## If you have any questions or need further assistance, feel free to ask during the workshop. Happy coding! 🚀
