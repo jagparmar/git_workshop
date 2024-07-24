@@ -1,3 +1,6 @@
+% Jag P - 2nd try 
+
+
 % Referece: https://www.mathworks.com/help/parallel-computing/mandelbrot-set.html
 
 % Load settings from JSON file

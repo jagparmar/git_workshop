@@ -5,7 +5,7 @@
             "ylim": [0.123640844894862, 0.123640851045266],
             "maxIterations": 500,
             "gridSize": 1000,
-            "colorMap": "jet"
+            "colorMap": "cool"
         }
     ]
 }
